@@ -9,9 +9,8 @@
 <body>
     
     <header class="header">
-
-        <div class="menu container"
-            
+        
+        <div class="menu container">
             <a href="#" class="logo">logo</a>
             <input type="checkbox" id="menu">
             <label for="menu">
@@ -25,11 +24,30 @@
                     <li><a href="#">Contacto</a></li>
                 </ul>
             </nav>
-
+            <div>
+                <ul>
+                    <li class="submenu">
+                        <img src="images/car.svg" id="img-carrito" alt="">
+                        <div class="carrito">
+                            <table id="lista-carrito">
+                                <thead>
+                                    <tr>
+                                        <th>imagen</th>
+                                        <th>nombre</th>
+                                        <th>precio</th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody></tbody>
+                            </table>
+                            <a href="#" id="vaciar-carrito" class="btn-2">vaciar carrito</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
         </div>
 
     </header>
-
     
     <script src="script.js"></script>
 </body>
